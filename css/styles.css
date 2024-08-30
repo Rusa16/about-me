@@ -58,3 +58,46 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    header #branding, 
+    header nav {
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+
+    header ul {
+        padding-top: 10px;
+    }
+
+    header li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    section {
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    section img {
+        float: none;
+        display: block;
+        margin: 0 auto 10px auto;
+        width: 50%;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
